@@ -1,0 +1,121 @@
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: -100px;
+  width: 300px;
+  height: 200px;
+}
+.rotate{
+  position: absolute;
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  background-color: #005ae8;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: crosshair;
+}
+
+.col{
+  position: absolute;
+  width: 2px;
+  height: 16px;
+  background-color: rgb(89, 149, 242);
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.editor {
+  background-color: #e0dede;
+  position: absolute;
+}
+
+.container:hover {
+  cursor: move;
+}
+
+.resize-button {
+  width: 6px;
+  height: 6px;
+  background-color: #005ae8;
+  position: absolute;
+}
+
+.top-left {
+  top: -4px;
+  left: -4px;
+}
+
+.top-left:hover {
+  cursor: nwse-resize;
+}
+
+.top-center {
+  top: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.top-center:hover {
+  cursor: ns-resize;
+}
+
+.top-right {
+  top: -4px;
+  right: -4px;
+}
+
+.top-right:hover {
+  cursor: nesw-resize;
+}
+
+.bottom-left {
+  bottom: -4px;
+  left: -4px;
+}
+
+.bottom-left:hover {
+  cursor: nesw-resize;
+}
+
+.bottom-center {
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-4px);
+}
+
+.bottom-center:hover {
+  cursor: ns-resize;
+}
+
+.bottom-right {
+  bottom: -4px;
+  right: -4px;
+}
+
+.bottom-right:hover {
+  cursor: nwse-resize;
+}
+
+.left-center {
+  left: -4px;
+  top: 50%;
+  transform: translateY(-4px);
+}
+
+.left-center:hover {
+  cursor: ew-resize;
+}
+
+.right-center {
+  right: -4px;
+  top: 50%;
+  transform: translateY(-4px);
+}
+
+.right-center:hover {
+  cursor: ew-resize;
+}
